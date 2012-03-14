@@ -4,5 +4,5 @@ Raccolta del codice scritto durante il corso di Programmazione 2
 ====
 
 To the extent possible under law, [Michele Pittoni](htp://michele.pittoni.org)
-has waived all copyright and relaed or neighboring righs to the code in this
+has waived all copyright and related or neighboring righs to the code in this
 repository. This work is published from: Italy.

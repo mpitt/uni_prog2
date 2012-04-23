@@ -7,6 +7,7 @@ public class ButtonPanel extends JPanel implements ActionListener {
 
     public static void main(String[] args) {
         JFrame f = new JFrame();
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         JPanel contentPanel = new ButtonPanel();
         f.setContentPane(contentPanel);
         f.pack();

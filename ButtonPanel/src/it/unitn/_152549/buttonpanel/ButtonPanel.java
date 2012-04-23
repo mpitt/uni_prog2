@@ -6,6 +6,9 @@ import javax.swing.*;
 public class ButtonPanel extends JPanel implements ActionListener {
 
     public static void main(String[] args) {
+        try {
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        } catch (Exception e) {};
         JFrame f = new JFrame();
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         JPanel contentPanel = new ButtonPanel();
